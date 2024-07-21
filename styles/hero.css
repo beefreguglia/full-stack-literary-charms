@@ -20,12 +20,12 @@
     gap: 2rem;
     margin-inline: auto;
 
-    & h1 {
+    & > h1 {
       max-width: 41rem;
       animation: appear 3s;
     }
 
-    & p {
+    & > p {
       max-width: 35.5rem;
       font: var(--body-lg);
       color: var(--text-body);

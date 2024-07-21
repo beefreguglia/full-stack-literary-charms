@@ -27,11 +27,11 @@
   --ff-sans: "Raleway", sans-serif;
   --title-lg: 700 1.75rem / 100% var(--ff-sans);
   --title-md: 700 2.5rem / 100% var(--ff-sans);
-  --title-sm: 700 2rem / 100% var(--ff-sans);
+  --title-sm: 700 1.5rem / 100% var(--ff-sans);
   --title-xs: 700 1rem / 100% var(--ff-sans);
   --subtitle: 500 1rem / 200% var(--ff-sans);
   --body-lg: 400 0.875rem / 140% var(--ff-sans);
-  --body-md: 400 1rem / 140% var(--ff-sans);
+  --body-md: 400 0.875rem / 140% var(--ff-sans);
   --body-sm: 400 0.875rem / 140% var(--ff-sans);
   --body-xs: 400 2rem / 140% var(--ff-sans);
   --button: 700 0.875rem / 100% var(--ff-sans);
@@ -72,8 +72,10 @@ a {
 @media (width >= 80em) {
   :root {
     --title-lg: 700 3rem / 100% var(--ff-sans);
-    --body-lg: 400 1.25rem / 140% var(--ff-sans);
+    --title-sm: 700 2rem / 100% var(--ff-sans);
     --subtitle: 500 2rem / 200% var(--ff-sans);
+    --body-lg: 400 1.25rem / 140% var(--ff-sans);
+    --body-md: 400 1rem / 140% var(--ff-sans);
   }
 
   .only-desktop {

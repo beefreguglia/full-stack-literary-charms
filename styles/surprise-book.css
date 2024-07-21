@@ -7,7 +7,7 @@
     & > h2 {
       animation: color-text-white 1s ease forwards;
 
-      & span {
+      & > span {
         animation: color-blue-light 1s ease forwards;
 
         & > img[src*="mystery-opened-spellbook"] {
@@ -26,7 +26,7 @@
     }
   }
 
-  & h2 {
+  & > h2 {
     max-width: 75rem;
     font: var(--subtitle);
     font-weight: 700;
@@ -85,7 +85,7 @@
     }
   }
 
-  & h2:nth-child(2) {
+  & > h2:nth-child(2) {
     animation-delay: 1s;
   }
   & h2:nth-child(3) {
@@ -97,10 +97,10 @@
   #surprise-book {
     padding: 7.125rem 2rem 9.875rem;
 
-    & h2 {
+    & > h2 {
       max-width: 30rem;
 
-      & span {
+      & > span {
         & > img {
           width: 5rem;
           height: 5rem;
@@ -162,43 +162,3 @@
     opacity: 1;
   }
 }
-
-
-/* & h2:nth-child(1) {
-  animation: color-text-white 200ms;
-  animation-timeline: view();
-  animation-range: cover;
-  & span {
-    animation: color-blue-light linear backwards;
-    animation-timeline: view();
-    animation-range: cover;
-  }
-} */
-
-/* & h2:nth-child(2) {
-  animation: color-text-white linear backwards;
-  animation-timeline: view();
-  animation-range: cover;
-  animation-delay: 1s;
-
-  & span {
-    animation: color-blue-light linear backwards;
-    animation-timeline: view();
-    animation-range: cover;
-    animation-delay: 1s;
-  }
-}
-
-& h2:nth-child(3) {
-  animation: color-text-white linear backwards;
-  animation-timeline: view();
-    animation-range: cover;
-  animation-delay: 2s;
-
-  & span {
-    animation: color-blue-light;
-    animation-timeline: view();
-    animation-range: cover;
-    animation-delay: 2s;
-  }
-} */
