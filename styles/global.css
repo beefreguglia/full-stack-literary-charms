@@ -33,10 +33,10 @@
   --body-lg: 400 0.875rem / 140% var(--ff-sans);
   --body-md: 400 0.875rem / 140% var(--ff-sans);
   --body-sm: 400 0.875rem / 140% var(--ff-sans);
-  --body-xs: 400 2rem / 140% var(--ff-sans);
+  --body-xs: 400 0.75rem / 140% var(--ff-sans);
   --button: 700 0.875rem / 100% var(--ff-sans);
   --link: 500 0.875rem / 100% var(--ff-sans);
-  --tag: 400 2rem / 100% var(--ff-sans);
+  --tag: 400 0.625rem / 100% var(--ff-sans);
 }
 
 html {
@@ -59,6 +59,14 @@ h1 {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+ul[role="list"] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
 }
 
 .only-desktop {
