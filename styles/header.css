@@ -12,7 +12,7 @@ header.top {
 }
 
 @media (width >= 80em) {
-  header {
+  header.top {
     padding: 3.5rem 10rem;
 
     & img {

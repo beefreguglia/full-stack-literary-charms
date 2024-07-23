@@ -48,6 +48,8 @@ html {
 body {
   background-color: var(--shape-background);
   overflow-x: hidden;
+  width: 100vw;
+  min-height: 100vh;
 }
 
 h1 {
